@@ -9,7 +9,7 @@
     --button-bg-primary-color: #315447;
     --button-bg-secondary-color: #4b9b6a;
     --shadow-color: rgba(0, 0, 0, 0.3);
-    --heavy-font-weight: 700px;
+    --heavy-font-weight: 700;
 }
 
 * {
@@ -176,7 +176,7 @@ tr, th, td {
     border-bottom: 2px solid var(--shadow-color);
     border-right: 2px solid var(--shadow-color);
 
-    transition: background-color 1s, box-shadow 1s, transform 0.25s, opacity .5s;
+    transition: background-color 1s, box-shadow 1s, font-weight .5s, transform 0.25s, opacity .5s;
 }
 
 .button:hover {
@@ -184,6 +184,7 @@ tr, th, td {
     background-color: var(--button-bg-secondary-color);
     transform: scale(1.1);
     cursor: pointer;
+    font-weight: var(--heavy-font-weight);
 
     box-shadow: 1px 2px 2px 1px var(--shadow-color);
     opacity: .8;
