@@ -176,7 +176,7 @@ tr, th, td {
     border-bottom: 2px solid var(--shadow-color);
     border-right: 2px solid var(--shadow-color);
 
-    transition: background-color 1s, box-shadow 1s, font-weight .5s, transform 0.25s, opacity .5s;
+
 }
 
 .button:hover {
@@ -188,6 +188,8 @@ tr, th, td {
 
     box-shadow: 1px 2px 2px 1px var(--shadow-color);
     opacity: .8;
+
+    transition: background-color 1s, box-shadow 1s, font-weight .5s, transform 0.25s, opacity .5s;
 }
 
 
@@ -263,6 +265,7 @@ tr, th, td {
     .contact-grid {
         grid-template-columns: 1fr;
     }
+
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
