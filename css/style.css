@@ -137,13 +137,13 @@ input, texture, select, button {
     list-style-type: none;
     justify-content: center;
     padding-right: 15px;
+    margin-left: -25px;
 }
 
 .about-me-list li {
     justify-content: center;
     flex-direction: column;
-    margin-left: 15px;
-    padding: 0 2em 0 2em;
+    padding: 0 1em 0 1em;
 }
 
 table {
@@ -175,8 +175,6 @@ tr, th, td {
 
     border-bottom: 2px solid var(--shadow-color);
     border-right: 2px solid var(--shadow-color);
-
-    transition: background-color 1s, box-shadow 1s, font-weight .5s, transform 0.25s, opacity .5s;
 }
 
 .button:hover {
@@ -188,6 +186,8 @@ tr, th, td {
 
     box-shadow: 1px 2px 2px 1px var(--shadow-color);
     opacity: .8;
+
+    transition: background-color 1s, box-shadow 1s, font-weight .5s, transform 0.25s, opacity .5s;
 }
 
 
