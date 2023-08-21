@@ -1,87 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/chaseicon.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/style.production.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/chaseicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <title>Chase Brooke - Work</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="top" class="page-header">
-        <img src="./img/chase-logo.png" alt="Text logo saying Chase Brooke" class="page-header__item">
-		<nav class="page-header__item">
-			<ul role="menubar" class="navigation-list">
-				<li role="presentation">
-					<a href="./index.html" role="menuitem" class="navigation-list__item">Home</a>
-				</li>
-				<li role="presentation">
-					<a href="./about.html" role="menuitem" class="navigation-list">About</a>
-				</li>
-                <li role="presentation">
-                    <a href="#top" role="menuitem" class="navigation-list"><h3>Work</h3></a>
-                </li>
-				<li role="presentation">
-					<a href="./contact.html" role="menuitem" class="navigation-list">Contact</a>
-				</li>
-			</ul>
-		</nav>
-
+      <img
+        src="./img/chase-logo.png"
+        alt="Text logo saying Chase Brooke"
+        class="page-header__item"
+      />
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="./index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="./about.html" role="menuitem" class="navigation-list"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="#top" role="menuitem" class="navigation-list"
+              ><h3>Work</h3></a
+            >
+          </li>
+          <li role="presentation">
+            <a href="./contact.html" role="menuitem" class="navigation-list"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <h1>Work</h1>
-            <div class="project-list">
-                <div class="project-list__item">
-                    <h2>Mobile web app</h2>
-                    <p>
-                        Within this project, I was responsible for the frontend. It's written in React.js. 
-                        Additionally, I've created the HTML and CSS templates.
-                    </p>
-                    <a href="https://github.com/speed-chaser" target="_blank">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2>Filler Project</h2>
-                    <p>
-                        I did things in this project that were cool and impressive so you should hire me.
-                    </p>
-                    <a href="https://github.com/speed-chaser" target="_blank">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2>Another filler project</h2>
-                    <p>
-                        I did things in this project that were cool and impressive so you should hire me.
-                    </p>
-                    <a href="https://github.com/speed-chaser" target="_blank">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2>Another filler project</h2>
-                    <p>
-                        I did things in this project that were cool and impressive so you should hire me.
-                    </p>
-                    <a href="https://github.com/speed-chaser" target="_blank">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2 class="grid-header">Your project?</h2>
-                    <p>
-                        I can help in realizing front-end and back-end projects with the following technologies: React.js,
-                        JavaScript, HTML and CSS. I am happy to be flexible and work around your needs.
-                    </p>
-                    <a href="./contact.html">Contact me</a>
-                </div>
+      <section>
+        <h1>Work</h1>
+        <div class="project-list">
+          <div class="project-list__item">
+            <h2>
+              <a
+                href="https://speed-chaser.github.io/pokedex-js-app"
+                target="blank"
+                >Pokedex App</a
+              >
+            </h2>
+            <div class="img-container">
+              <img
+                src="./img/pokedex-app.png"
+                class="work-img"
+                alt="screenshot of pokedex app"
+              />
             </div>
-        </section>
+            <p>
+              A simple vanilla JS app that connects to an external API to fetch
+              information about Pokemon.
+            </p>
+            <a
+              href="https://github.com/speed-chaser/pokedex-js-app"
+              target="_blank"
+              >See project on GitHub</a
+            >
+          </div>
+          <div class="project-list__item">
+            <h2>
+              <a href="https://chaseflix.netlify.app" target="blank"
+                >Full-Stack Movie Application</a
+              >
+            </h2>
+            <div class="img-container">
+              <img
+                src="./img/chaseflix-app.png"
+                class="work-img"
+                alt="screenshot of chaseflix app"
+              />
+            </div>
+            <p>
+              A full-stack application with user and movie databases. Users can
+              sign up and browse a list of available movies. They can create a
+              list of favorite movies and browse other users' favorites as well.
+            </p>
+            <h4>Technologies used:</h4>
+            <ul class="tech-list">
+              <li>Nodejs</li>
+              <li>Express</li>
+              <li>Mongodb</li>
+              <li>Mongoose</li>
+              <li>React</li>
+            </ul>
+            <a
+              href="https://github.com/speed-chaser/chaseflix-client"
+              target="_blank"
+              >See project on GitHub</a
+            >
+          </div>
+
+          <div class="project-list__item">
+            <h2>
+              <a href="https://speed-chaser.github.io/meet-app/" target="blank"
+                >Meet App</a
+              >
+            </h2>
+            <div class="img-container">
+              <img
+                src="./img/meet-app.png"
+                class="work-img"
+                alt="a screenshot of the meet app"
+              />
+            </div>
+            <p>
+              A serverless react progressive web app that connects to events in
+              a google api and can access them offline. This project was
+              developed using a test-driven development technique. It also
+              utilizes google OAUTH to sign in and use the application.
+            </p>
+            <h4>Technologies used:</h4>
+            <ul class="tech-list">
+              <li>React</li>
+              <li>Jest (testing framework)</li>
+              <li>Cucumber (testing framework)</li>
+              <li>Puppeteer (testing framework)</li>
+              <li>Atatus (app performance management tool)</li>
+              <li>Rechards (React charts library)</li>
+            </ul>
+            <a href="https://github.com/speed-chaser/meet-app" target="_blank"
+              >See project on GitHub</a
+            >
+          </div>
+          <div class="project-list__item">
+            <h2>Another filler project</h2>
+            <p>
+              I did things in this project that were cool and impressive so you
+              should hire me.
+            </p>
+            <a href="https://github.com/speed-chaser" target="_blank"
+              >See project on GitHub</a
+            >
+          </div>
+          <div class="project-list__item">
+            <h2 class="grid-header">Your project?</h2>
+            <p>
+              I can help in realizing front-end and back-end projects with the
+              following technologies: React.js, JavaScript, HTML and CSS. I am
+              happy to be flexible and work around your needs.
+            </p>
+            <a href="./contact.html">Contact me</a>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="page-footer">
-        <p>Find me on</p>
-        <div>
-            <a href="https://www.github.com/speed-chaser" target="_blank"><img src="./img/GitHub-Logo.svg" alt="Github" class="footer-logo"></a>
-            <a href="https://www.twitter.com/aychase" target="_blank"><img src="./img/Twitter-Logo.svg" alt="Twitter" class="footer-logo"></a>
-            <a href="https://www.linkedin.com/in/chase-brooke-050a14179" target="_blank"><img src="./img/Linkedin-Logo.svg" alt="LinkedIn" class="footer-logo"></a>
-        </div>
+      <p>Find me on</p>
+      <div>
+        <a href="https://www.github.com/speed-chaser" target="_blank"
+          ><img src="./img/GitHub-Logo.svg" alt="Github" class="footer-logo"
+        /></a>
+        <a href="https://www.twitter.com/aychase" target="_blank"
+          ><img src="./img/Twitter-Logo.svg" alt="Twitter" class="footer-logo"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/chase-brooke-050a14179"
+          target="_blank"
+          ><img
+            src="./img/Linkedin-Logo.svg"
+            alt="LinkedIn"
+            class="footer-logo"
+        /></a>
+      </div>
     </footer>
     <script src="./js/tota11y.min.js"></script>
-</body>
+  </body>
 </html>

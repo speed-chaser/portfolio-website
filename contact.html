@@ -1,73 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/chaseicon.ico">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/style.production.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/chaseicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <title>Chase Brooke - Contact</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="top" class="page-header">
-		<img src="./img/chase-logo.png" alt="Text logo saying Chase Brooke" class="page-header__item">
-        <nav class="page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="./index.html" role="menuitem" class="navigation-list__item">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="./about.html" role="menuitem" class="navigation-list__item">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="./work.html" role="menuitem" class="navigation-list__item">Work</a>
-                </li>
-                <li role="presentation">
-                    <a href="#top" role="menuitem"  class="navigation-list__item"><h3>Contact</h3></a>
-                </li>
-            </ul>
-        </nav>
+      <img
+        src="./img/chase-logo.png"
+        alt="Text logo saying Chase Brooke"
+        class="page-header__item"
+      />
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="./index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="./about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="./work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="#top" role="menuitem" class="navigation-list__item"
+              ><h3>Contact</h3></a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Contact</h1>
-        <div class="contact-grid">
-            <div class="contact-grid__item">
-                <h3>Contact info:</h3>      
-                <ul>
-                    <li>Email: <a href="mailto:aychasepro@gmail.com">aychasepro@gmail.com</a></li>
-                    <li>Phone: <a href="tel:13096966981">+1-309-696-6981</a></li>
-                </ul>        
-                <p>Reach out to me directly via email or phone or fill out this form and I'll get back to you as soon as I can.</p>
-            </div>
-            <div class="contact-grid__item">
-                <h3>Contact me:</h3>  
-                <form action="" method="post">
-                    <label for="fname">Your name:</label><br>
-                    <input type="text" id="fname" name="fname" placeholder="" minlength="2" required><br>
-
-                    <label for="email">Your email:</label><br>
-                    <input type="email" id="email" name="email" placeholder="" required><br>
-                    <label for="message">Message:</label><br>
-                    <textarea rows="6" cols="21" id="message" placeholder="" minlength="12" maxlength="255" required></textarea><br>
-                    
-                    <input type="submit" value="Send message">
-                </form>
-            </div>
+      <h1>Contact</h1>
+      <div class="contact-grid">
+        <div class="contact-grid__item">
+          <h3>Contact info:</h3>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:aychasepro@gmail.com">aychasepro@gmail.com</a>
+            </li>
+            <li>Phone: <a href="tel:13096966981">+1-309-696-6981</a></li>
+          </ul>
+          <p>
+            Reach out to me directly via email or phone or fill out this form
+            and I'll get back to you as soon as I can.
+          </p>
         </div>
+        <div class="contact-grid__item">
+          <h3>Contact me:</h3>
+          <form action="" method="post">
+            <label for="fname">Your name:</label><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder=""
+              minlength="2"
+              required
+            /><br />
+
+            <label for="email">Your email:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=""
+              required
+            /><br />
+            <label for="message">Message:</label><br />
+            <textarea
+              rows="6"
+              cols="21"
+              id="message"
+              placeholder=""
+              minlength="12"
+              maxlength="255"
+              required
+            ></textarea
+            ><br />
+
+            <input type="submit" value="Send message" />
+          </form>
+        </div>
+      </div>
     </main>
-	<footer class="page-footer">
-		<p>Find me on</p>
-        <div>
-		    <a href="https://www.github.com/speed-chaser" target="_blank"><img src="./img/GitHub-Logo.svg" alt="Github icon" class="footer-logo"></a>
-            <a href="https://www.twitter.com/aychase" target="_blank"><img src="./img/Twitter-Logo.svg" alt="Twitter icon" class="footer-logo"></a>
-            <a href="https://www.linkedin.com/in/chase-brooke-050a14179" target="_blank"><img src="./img/Linkedin-Logo.svg" alt="LinkedIn icon" class="footer-logo"></a>
-	    </div>
-	</footer>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div>
+        <a href="https://www.github.com/speed-chaser" target="_blank"
+          ><img
+            src="./img/GitHub-Logo.svg"
+            alt="Github icon"
+            class="footer-logo"
+        /></a>
+        <a href="https://www.twitter.com/aychase" target="_blank"
+          ><img
+            src="./img/Twitter-Logo.svg"
+            alt="Twitter icon"
+            class="footer-logo"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/chase-brooke-050a14179"
+          target="_blank"
+          ><img
+            src="./img/Linkedin-Logo.svg"
+            alt="LinkedIn icon"
+            class="footer-logo"
+        /></a>
+      </div>
+    </footer>
 
     <script src="js/tota11y.min.js"></script>
-</body>
+  </body>
 </html>
